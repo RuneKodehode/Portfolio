@@ -1,0 +1,31 @@
+#projects {
+  align-self: center;
+  justify-self: center;
+  grid-row-start: one;
+  grid-row-end: two;
+  grid-column: col-three;
+  height: 100%;
+  width: 80%;
+  background-color: #bc8a5fbe;
+  margin: 50px;
+  border-radius: 20px;
+  border: 3px solid #ff7b00;
+}
+#projects:hover {
+  animation: outlinePitch 0.4s;
+}
+
+h2 {
+  text-align: center;
+}
+ol {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 900;
+  color: black;
+}
+@media only screen and (max-width: 900px) {
+  #projects {
+    visibility: hidden;
+  }
+}

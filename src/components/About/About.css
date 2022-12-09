@@ -1,0 +1,26 @@
+.pitch {
+  justify-self: center;
+  align-self: center;
+  padding: 10px;
+  font-family: "Heebo";
+  border-radius: 10px;
+  font-size: 20px;
+  grid-column: col-two;
+  grid-row: two;
+  width: 80%;
+  height: 80%;
+  background-color: #bc8a5fbe;
+  border: 3px solid #ff7b00;
+}
+.pitch:hover {
+  animation: outlinePitch 0.4s;
+}
+
+@media only screen and (max-width: 900px) {
+  .pitch {
+    font-size: 14px;
+    margin-top: 20px;
+    height: auto;
+    padding-top: 0px;
+  }
+}

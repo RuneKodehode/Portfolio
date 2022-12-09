@@ -1,0 +1,29 @@
+#icons {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  grid-column: col-two;
+  grid-row: three;
+  justify-content: space-evenly;
+}
+.icon {
+  background: #e7bc91;
+  border: 2px solid #ff7b00;
+  border-radius: 5px;
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+  justify-content: space-around;
+  margin: 10px;
+}
+.icon:hover {
+  animation: outlinePitch 0.4s;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .icons {
+    width: 30px;
+    height: 30px;
+  }
+}
