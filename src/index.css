@@ -1,13 +1,55 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url("/public/fjord.jpg");
+  background-size: cover;
+  background-attachment: fixed; */
+  height: 100vh;
+  font-family: "Heebo thin";
+  overflow: hidden;
+  background: linear-gradient(#ffedd8, #ffedd8, #ffedd8, #6f4518);
 }
+@font-face {
+  font-family: "Heebo thin", sans-serif;
+  src: url("/public/Heebo-VariableFont_wght.ttf");
+}
+h1 {
+  align-self: center;
+  justify-self: center;
+  border-radius: 10px;
+  font-weight: 900;
+  font-size: 110px;
+  grid-column: col-two;
+  grid-row: one;
+  color: #ff7b00;
+}
+#header {
+  display: grid;
+  grid-template-columns: [col-one] 400px [col-two] auto [col-three] 400px;
+  grid-template-rows: [one] 45% [two] 60% [three] auto;
+}
+@keyframes outlinePitch {
+  0% {
+    outline: 2px solid;
+    outline-offset: 30px;
+    outline-color: transparent;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  100% {
+    outline: 2px solid;
+    outline-offset: 0px;
+    outline-color: #ff7b00;
+  }
+}
+@media only screen and (max-width: 900px) {
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  #header {
+    display: grid;
+    grid-template-columns: [one] auto [two] auto [three] auto;
+    grid-template-rows: [one] 20%[two] 60% [three] 20%;
+  }
 }
