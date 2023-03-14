@@ -10,7 +10,7 @@ export const Rune = () => {
         <Doodle
           rule={`@grid: 25;
           @size:  1px 1px;
-          background-color: darkorange;
+          background-color: white;
           @place: @plot(
             r: sin(-t/2);
             move: 0 -.1;
