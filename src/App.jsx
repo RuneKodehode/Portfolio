@@ -8,6 +8,7 @@ import { AboutProjTwo } from "./components/Pages/AboutProjTwo.jsx";
 import { AboutBreakout } from "./components/Pages/AboutBreakout.jsx";
 import { Breakout } from "./components/Pages/Breakout.jsx";
 import { Collatz } from "./components/Pages/Collatz.jsx";
+import { AboutCollatz } from "./components/Pages/AboutCollatz.jsx";
 import { Rune } from "./components/svg/rune.jsx";
 import { Contact } from "./components/Pages/Contact.jsx";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
@@ -28,6 +29,7 @@ function App() {
               <Route path="/AboutProjOne" element={<AboutProjOne />} />
               <Route path="/AboutProjTwo" element={<AboutProjTwo />} />
               <Route path="/AboutBreakout" element={<AboutBreakout />} />
+              <Route path="/AboutCollatz" element={<AboutCollatz />} />
               <Route path="/Contact" element={<Contact />} />
               <Route path="/Breakout" element={<Breakout />} />
               <Route path="/Collatz" element={<Collatz />} />
