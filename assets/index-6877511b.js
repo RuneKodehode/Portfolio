@@ -377,21 +377,21 @@ color = vec4(${Cl(n/255)}, ${Cl(r/255)}, ${Cl(l/255)}, ${Cl(i)});
       grid-template-rows: repeat(${n}, 1fr);
       grid-template-columns: repeat(${t}, 1fr);
     }
-  `}function Oc(e){return D(e)?"":e}function Ic(e,t,n,r,l=""){let i=yr(e,t,n),o=Oc(r["#"+i]),u=Oc(l);return`<cell id="${i}">${o}${u}</cell>`}function Mc(e,t){let{x:n,y:r,z:l}=e||{},i="";if(l==1)for(let o=1;o<=r;++o)for(let u=1;u<=n;++u)i+=Ic(u,o,1,t);else{let o="";for(let u=l;u>=1;u--)o=Ic(1,1,u,t,o);i=o}return`<grid class="container">${i}</grid>`}const N0=({rule:e=""})=>k("css-doodle",{children:e}),$0=()=>U("div",{className:"flex flex-col gap-0 self-center justify-self-center w-100  row-start-1 text-center col-start-2 font-bold text-white sm:text-5xl text-2xl",id:"portfolio",children:[k("h1",{className:"self-center justify-self-center text-center",children:"Portfolio"}),U("div",{id:"doodle",className:"min-w-full",children:[k(N0,{rule:`@grid: 20;
-          @size:  2px 2px;
+  `}function Oc(e){return D(e)?"":e}function Ic(e,t,n,r,l=""){let i=yr(e,t,n),o=Oc(r["#"+i]),u=Oc(l);return`<cell id="${i}">${o}${u}</cell>`}function Mc(e,t){let{x:n,y:r,z:l}=e||{},i="";if(l==1)for(let o=1;o<=r;++o)for(let u=1;u<=n;++u)i+=Ic(u,o,1,t);else{let o="";for(let u=l;u>=1;u--)o=Ic(1,1,u,t,o);i=o}return`<grid class="container">${i}</grid>`}const N0=({rule:e=""})=>k("css-doodle",{children:e}),$0=()=>U("div",{className:"flex flex-col gap-0 self-center justify-self-center w-100  row-start-1 text-center col-start-2 font-bold text-white sm:text-5xl text-2xl",id:"portfolio",children:[k("h1",{className:"self-center justify-self-center text-center",children:"Portfolio"}),U("div",{id:"doodle",className:"min-w-full",children:[k(N0,{rule:`@grid: 25;
+          @size:  1px 1px;
           background-color: white;
           @place: @plot(
             r: sin(-t/2);
-            move: 0 -.2;
+            move: 0 -.1;
             rotate: 90;
           );
-            box-shadow: 2px 2px 5px cyan;
-            animation: m 4s alternate-reverse infinite;
-            transform: translateY(calc(@sin(@i / 1) * π * 16px));
+            
+            animation: m 3s alternate-reverse infinite;
+            transform: translateY(calc(@sin(@i / 1) * π * 10px));
             animation-delay: calc(
              -1s/@I * @i * @sin(@i)
              );
              @keyframes m {
-               15%, 70%, 70% { scale: 1; opacity: 1}
-              04%, 60%, 100% { scale: 0; opacity: 0;}
+               15%, 70%, 90% { scale: 1; opacity: 1}
+              20%, 10%, 80% { scale: 0; opacity: 0;}
               `})," "]}),k("h1",{className:"",children:"Rune"})]}),T0=()=>U("div",{className:" text-white sm:text-2xl space-y-5 w-auto sm:w-96 self-start mt-32 ml-auto mr-auto justify-self-center text-left",children:[U("h3",{className:"projects",children:[" ","Tlf: ",k("span",{style:{color:"orangered"},children:"+47 91992120"})]}),U("h3",{className:"projects",children:["E-mail: ",k("span",{style:{color:"orangered"},children:"RuneLaupsa@gmail.com"})]}),k("br",{}),k("br",{}),k("p",{className:"projects",children:"CV can be provided upon request. "})]});function R0(){return k("div",{className:"",children:k(fv,{children:U("div",{className:"grid sm:grid-rows-[15%_minmax(150px,_auto)_20px] grid-rows-[15%_minmax(150px,_auto)_150px] grid-cols-[7%_minmax(5px,_2fr)_7%] sm:grid-cols-[16%_minmax(5px,_2fr)_16%] h-[100dvh]",children:[k($0,{}),k(yv,{}),k(xv,{}),k("div",{className:"grid row-start-2 col-start-1 col-span-3 sm:col-span-1 sm:col-start-2 pb-2.5",children:U(ov,{className:"flex",children:[k(Ze,{path:"/",element:k(_v,{})}),k(Ze,{path:"/ProjectOne",element:k(Sv,{})}),k(Ze,{path:"/ProjectTwo",element:k(kv,{})}),k(Ze,{path:"/AboutProjOne",element:k(Ev,{})}),k(Ze,{path:"/AboutProjTwo",element:k(Cv,{})}),k(Ze,{path:"/AboutBreakout",element:k(Pv,{})}),k(Ze,{path:"/Contact",element:k(T0,{})}),k(Ze,{path:"/Breakout",element:k(Nv,{})}),k(Ze,{path:"*",element:U("div",{children:[k("h1",{children:"404"})," ",k("p",{children:"Page not found"})]})})]})})]})})})}Ro.createRoot(document.getElementById("root")).render(k(at.StrictMode,{children:k(R0,{})}));
