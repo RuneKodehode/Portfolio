@@ -7,6 +7,7 @@ import { AboutProjOne } from "./components/Pages/AboutProjOne.jsx";
 import { AboutProjTwo } from "./components/Pages/AboutProjTwo.jsx";
 import { AboutBreakout } from "./components/Pages/AboutBreakout.jsx";
 import { Breakout } from "./components/Pages/Breakout.jsx";
+import { Collatz } from "./components/Pages/Collatz.jsx";
 import { Rune } from "./components/svg/rune.jsx";
 import { Contact } from "./components/Pages/Contact.jsx";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
@@ -29,6 +30,7 @@ function App() {
               <Route path="/AboutBreakout" element={<AboutBreakout />} />
               <Route path="/Contact" element={<Contact />} />
               <Route path="/Breakout" element={<Breakout />} />
+              <Route path="/Collatz" element={<Collatz />} />
               <Route
                 path="*"
                 element={

@@ -8,7 +8,10 @@ function NavBar() {
 
   return (
     <div className="grid row-start-3 col-start-1 sm:row-start-1 sm:col-start-1">
-      <div className="flex sm:flex-col" id="navbar">
+      <div
+        className="flex sm:flex-col   whitespace-nowrap overflow-auto w-screen"
+        id="navbar"
+      >
         <Link
           to="/"
           className="w-16 h-12 sm:w-32 text-black font-bold  bg-white  rounded-lg flex hover:border-orange-600 hover:border-2 active:scale-90 m-1"
@@ -26,7 +29,7 @@ function NavBar() {
         >
           projects
         </button>
-        <div className="flex flex-col">
+        <div class="scrollmenu" className="flex flex-col">
           {showNav && (
             <Link
               to="/ProjectOne"
@@ -111,6 +114,99 @@ function NavBar() {
               </Link>
               <a
                 href="https://github.com/RuneKodehode/breakout"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+              >
+                Github
+              </a>
+            </div>
+          )}
+        </div>
+        <div className="flex flex-col">
+          {showNav && (
+            <Link
+              to="/Collatz"
+              className="grid place-content-center w-16 h-12 rounded-lg text-black text-center font-bold  text-xs bg-white  sm:w-32  sm:h-12 sm:text-lg hover:border-orange-600 hover:border-2 active:scale-90 m-1"
+              onClick={() => {
+                setHideClose((prevHideClose) => (prevHideClose !== 4 ? 4 : 0));
+              }}
+            >
+              Collatz
+            </Link>
+          )}
+          {showNav && hideClose === 4 && (
+            <div className="flex flex-col">
+              <Link
+                to="/AboutBreakout"
+                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+              >
+                info
+              </Link>
+              <a
+                href="https://github.com/RuneKodehode/Collatz"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+              >
+                Github
+              </a>
+            </div>
+          )}
+        </div>
+        <div className="flex flex-col">
+          {showNav && (
+            <Link
+              to="/Collatz"
+              className="grid place-content-center w-16 h-12 rounded-lg text-black text-center font-bold  text-xs bg-white  sm:w-32  sm:h-12 sm:text-lg hover:border-orange-600 hover:border-2 active:scale-90 m-1"
+              onClick={() => {
+                setHideClose((prevHideClose) => (prevHideClose !== 4 ? 4 : 0));
+              }}
+            >
+              Collatz
+            </Link>
+          )}
+          {showNav && hideClose === 4 && (
+            <div className="flex flex-col">
+              <Link
+                to="/AboutBreakout"
+                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+              >
+                info
+              </Link>
+              <a
+                href="https://github.com/RuneKodehode/Collatz"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+              >
+                Github
+              </a>
+            </div>
+          )}
+        </div>
+        <div className="flex flex-col">
+          {showNav && (
+            <Link
+              to="/Collatz"
+              className="grid place-content-center w-16 h-12 rounded-lg text-black text-center font-bold  text-xs bg-white  sm:w-32  sm:h-12 sm:text-lg hover:border-orange-600 hover:border-2 active:scale-90 m-1"
+              onClick={() => {
+                setHideClose((prevHideClose) => (prevHideClose !== 4 ? 4 : 0));
+              }}
+            >
+              Collatz
+            </Link>
+          )}
+          {showNav && hideClose === 4 && (
+            <div className="flex flex-col">
+              <Link
+                to="/AboutBreakout"
+                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+              >
+                info
+              </Link>
+              <a
+                href="https://github.com/RuneKodehode/Collatz"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
