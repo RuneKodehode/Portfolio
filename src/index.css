@@ -4,12 +4,12 @@
 
 body {
   font-family: "Cinzel", serif;
-  background-image: url(./components/svg/test.png);
+  background-image: url(./components/svg/sky.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.781);
-  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.621);
+  background-blend-mode: darken;
   height: 100vh;
 }
 body::-webkit-scrollbar {

@@ -8,23 +8,23 @@ export const Rune = () => {
       <h1 className="self-center justify-self-center text-center">Portfolio</h1>
       <div id="doodle" className="min-w-full">
         <Doodle
-          rule={`@grid: 20;
-          @size:  2px 2px;
-          background-color: white;
+          rule={`@grid: 25;
+          @size:  1px 1px;
+          background-color: darkorange;
           @place: @plot(
             r: sin(-t/2);
-            move: 0 -.2;
+            move: 0 -.1;
             rotate: 90;
           );
-            box-shadow: 2px 2px 5px cyan;
-            animation: m 4s alternate-reverse infinite;
-            transform: translateY(calc(@sin(@i / 1) * π * 16px));
+            
+            animation: m 3s alternate-reverse infinite;
+            transform: translateY(calc(@sin(@i / 1) * π * 10px));
             animation-delay: calc(
              -1s/@I * @i * @sin(@i)
              );
              @keyframes m {
-               15%, 70%, 70% { scale: 1; opacity: 1}
-              04%, 60%, 100% { scale: 0; opacity: 0;}
+               15%, 70%, 90% { scale: 1; opacity: 1}
+              20%, 10%, 80% { scale: 0; opacity: 0;}
               `}
         ></Doodle>{" "}
       </div>
