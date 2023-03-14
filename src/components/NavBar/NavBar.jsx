@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <div className="grid row-start-3 col-start-1 sm:row-start-1 sm:col-start-1">
       <div
-        className="flex sm:flex-col   whitespace-nowrap overflow-auto w-screen"
+        className="flex sm:flex-col  whitespace-nowrap overflow-auto w-screen sm:overflow-visible"
         id="navbar"
       >
         <Link
