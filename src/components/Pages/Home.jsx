@@ -1,8 +1,12 @@
 export const Home = () => {
   return (
-    <div className=" text-white sm:text-2xl space-y-5 w-auto sm:w-11/12 self-start mt-10 ml-auto mr-auto justify-self-center text-left">
+    <div className=" text-white sm:text-2xl space-y-5 w-[90vw] sm:w-11/12 sm:mb-52 self-center justify-self-center text-left">
       <p>
-        I'm a 33 year old front-end developer. I'm currently participating in a
+        Hi, my name is <span style={{ color: "orangered" }}> Rune</span>, and
+        welcome to my portfolio.{" "}
+      </p>
+      <p>
+        I'm 33 years old, from Norway and I'm currently participating in a
         front-end developer course hosted by Jobloop in Stavanger.{" "}
       </p>
       <p>
