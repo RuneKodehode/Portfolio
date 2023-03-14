@@ -14,9 +14,9 @@ function NavBar() {
       >
         <Link
           to="/"
-          className="w-16 h-12 sm:w-32 text-black font-bold  bg-white  rounded-lg flex hover:border-orange-600 hover:border-2 active:scale-90 m-1"
+          className="w-16 h-12 sm:w-32 text-black font-bold  bg-white rounded-lg flex hover:border-orange-600 hover:border-2 active:scale-90 m-1"
         >
-          <BiHomeAlt2 className="w-16 h-12 sm:w-32 sm:h-12  mr-auto ml-auto" />
+          <BiHomeAlt2 className="grid self-center w-16 h-12 sm:w-32 sm:h-12" />
         </Link>
         <button
           to="/menu"
@@ -145,6 +145,37 @@ function NavBar() {
               </Link>
               <a
                 href="https://github.com/RuneKodehode/Collatz"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+              >
+                Github
+              </a>
+            </div>
+          )}
+        </div>
+        <div className="flex flex-col">
+          {showNav && (
+            <Link
+              to="/Drums"
+              className="grid place-content-center w-16 h-12 rounded-lg text-black text-center font-bold  text-xs bg-white  sm:w-32  sm:h-12 sm:text-lg hover:border-orange-600 hover:border-2 active:scale-90 m-1"
+              onClick={() => {
+                setHideClose((prevHideClose) => (prevHideClose !== 4 ? 4 : 0));
+              }}
+            >
+              Drums
+            </Link>
+          )}
+          {showNav && hideClose === 4 && (
+            <div className="flex flex-col">
+              <Link
+                to="/AboutDrums"
+                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+              >
+                info
+              </Link>
+              <a
+                href="https://github.com/RuneKodehode/Drums"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
