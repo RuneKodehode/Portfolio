@@ -42,7 +42,7 @@ function NavBar() {
             <div aria-label="Show Parallax website" className="flex flex-col">
               <Link
                 to="/AboutProjOne"
-                className="grid place-content-center w-16 h-10 rounded-lg text-black  text-xs active:scale-90 bg-slate-400 border-2 border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg text-black  text-xs active:scale-90 bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
               >
                 info
               </Link>
@@ -50,7 +50,7 @@ function NavBar() {
                 href="https://github.com/RuneKodehode/Parallax"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="grid place-content-center w-16 h-10 rounded-lg active:scale-90 text-black text-center  text-xs bg-slate-400 border-2 border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg active:scale-90 text-black text-center  text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
               >
                 Github
               </a>
@@ -74,7 +74,7 @@ function NavBar() {
             <div className="flex flex-col">
               <Link
                 to="/AboutProjTwo"
-                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2 border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
               >
                 info
               </Link>
@@ -82,7 +82,7 @@ function NavBar() {
                 href="https://github.com/RuneKodehode/Pokedex"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2 border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
               >
                 Github
               </a>
@@ -105,7 +105,7 @@ function NavBar() {
             <div className="flex flex-col">
               <Link
                 to="/AboutBreakout"
-                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2 border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
               >
                 info
               </Link>
@@ -113,7 +113,7 @@ function NavBar() {
                 href="https://github.com/RuneKodehode/breakout"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2 border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
               >
                 Github
               </a>

@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="">
       <Router>
-        <div className="grid sm:grid-rows-[15%_minmax(150px,_auto)_20px] grid-rows-[15%_minmax(150px,_auto)_150px] grid-cols-[7%_minmax(5px,_2fr)_7%] sm:grid-cols-[16%_minmax(5px,_2fr)_16%]  h-screen">
+        <div className="grid sm:grid-rows-[15%_minmax(150px,_auto)_20px] grid-rows-[15%_minmax(150px,_auto)_150px] grid-cols-[7%_minmax(5px,_2fr)_7%] sm:grid-cols-[16%_minmax(5px,_2fr)_16%] min-h-[100dvh]">
           <Rune />
           <NavBar />
           <NavBarTwo />
