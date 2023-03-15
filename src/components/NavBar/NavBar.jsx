@@ -160,13 +160,13 @@ function NavBar() {
               to="/Drums"
               className="grid place-content-center w-16 h-12 rounded-lg text-black text-center font-bold  text-xs bg-white  sm:w-32  sm:h-12 sm:text-lg hover:border-orange-600 hover:border-2 active:scale-90 m-1"
               onClick={() => {
-                setHideClose((prevHideClose) => (prevHideClose !== 4 ? 4 : 0));
+                setHideClose((prevHideClose) => (prevHideClose !== 5 ? 5 : 0));
               }}
             >
               Drums
             </Link>
           )}
-          {showNav && hideClose === 4 && (
+          {showNav && hideClose === 5 && (
             <div className="flex flex-col">
               <Link
                 to="/AboutDrums"
