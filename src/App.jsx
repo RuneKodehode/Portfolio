@@ -9,8 +9,8 @@ import { AboutBreakout } from "./components/Pages/AboutBreakout.jsx";
 import { Breakout } from "./components/Pages/Breakout.jsx";
 import { Collatz } from "./components/Pages/Collatz.jsx";
 import { AboutCollatz } from "./components/Pages/AboutCollatz.jsx";
-import { Drums } from "./components/Pages/Drums.jsx";
-import { AboutDrums } from "./components/Pages/AboutDrums.jsx";
+import { Piano } from "./components/Pages/Piano.jsx";
+import { AboutPiano } from "./components/Pages/AboutPiano.jsx";
 import { Rune } from "./components/svg/rune.jsx";
 import { Contact } from "./components/Pages/Contact.jsx";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
@@ -35,8 +35,8 @@ function App() {
               <Route path="/Contact" element={<Contact />} />
               <Route path="/Breakout" element={<Breakout />} />
               <Route path="/Collatz" element={<Collatz />} />
-              <Route path="/Drums" element={<Drums />} />
-              <Route path="/AboutDrums" element={<AboutDrums />} />
+              <Route path="/Piano" element={<Piano />} />
+              <Route path="/AboutPiano" element={<AboutPiano />} />
               <Route
                 path="*"
                 element={

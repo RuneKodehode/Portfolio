@@ -1,4 +1,4 @@
-export const Drums = () => {
+export const Piano = () => {
   return (
     <iframe
       src="https://runekodehode.github.io/Drums/"
