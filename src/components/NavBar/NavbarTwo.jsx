@@ -8,13 +8,13 @@ function NavBarTwo() {
           href="https://github.com/RuneKodehode?tab=repositories"
           target="_blank"
           rel="noreferrer noopener"
-          className="grid place-content-center rounded-lg text-black text-center active:scale-90 text-xs bg-white hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg m-1"
+          className="grid place-content-center rounded-lg text-black text-center active:scale-90 text-xs bg-white hover:border-orange-600 hover:border-2 font-bold  sm:w-32  sm:h-12 sm:text-lg m-1  border-2 border-black"
         >
           <AiFillGithub className="h-10 w-16" />
         </a>
         <Link
           to="/Contact"
-          className="grid place-content-center rounded-lg h-10 w-16 text-black active:scale-90 text-center  text-xs bg-white hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg m-1"
+          className="grid place-content-center rounded-lg h-10 w-16 text-black active:scale-90 text-center  text-xs bg-white hover:border-orange-600 hover:border-2 font-bold  sm:w-32  sm:h-12 sm:text-lg m-1  border-2 border-black"
         >
           contact
         </Link>

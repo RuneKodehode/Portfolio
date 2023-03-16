@@ -2,15 +2,16 @@ import Doodle from "../../doodle";
 export const Rune = () => {
   return (
     <div
-      className="flex flex-col gap-0 self-center justify-self-center w-100  row-start-1 text-center col-start-2 font-bold text-white sm:text-5xl text-2xl"
+      className="flex flex-col gap-0 self-center justify-self-center w-100  row-start-1 text-center col-start-2 font-bold  sm:text-5xl text-2xl"
       id="portfolio"
     >
       <h1 className="self-center justify-self-center text-center">Portfolio</h1>
       <div id="doodle" className="min-w-full">
         <Doodle
           rule={`@grid: 25;
-          @size:  1px 1px;
-          background-color: white;
+          @size:  2px 2px;
+          background-color: orangered;
+          box-shadow: 0px 0px 4px red;
           @place: @plot(
             r: sin(-t/2);
             move: 0 -.1;

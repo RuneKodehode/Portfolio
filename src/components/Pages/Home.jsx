@@ -1,9 +1,8 @@
 export const Home = () => {
   return (
-    <div className=" text-white sm:text-2xl space-y-5 w-[90vw] sm:w-11/12 sm:mb-52 self-center justify-self-center text-left">
+    <div className=" customblur sm:text-3xl space-y-5 w-[90vw] sm:w-11/12 sm:mb-52 self-center justify-self-center">
       <p>
-        Hi, my name is <span style={{ color: "orangered" }}> Rune</span>, and
-        welcome to my portfolio.{" "}
+        Hi, my name is <span style={{ color: "orangered" }}> Rune</span>.
       </p>
       <p>
         I'm 33 years old, from Norway and I'm currently participating in a

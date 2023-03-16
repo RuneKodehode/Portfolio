@@ -1,7 +1,7 @@
 export const AboutBreakout = () => {
   return (
-    <div className=" text-white sm:text-2xl space-y-5 w-11/12 sm:w-11/12 self-start sm:mt-32 mt-16 ml-auto mr-auto justify-self-center text-left">
-      <h2 className="text-center">
+    <div className="customblur sm:text-2xl space-y-5 w-11/12 sm:w-11/12 self-start sm:mt-32 mt-16 ml-auto mr-auto justify-self-center text-left">
+      <h2 className="text-center ">
         <span style={{ color: "orangered" }}>Breakout</span>
       </h2>
       <p>

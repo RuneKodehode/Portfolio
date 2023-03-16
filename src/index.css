@@ -3,21 +3,33 @@
 @tailwind utilities;
 
 body {
-  font-family: "Cinzel", serif;
-  background-image: url(./components/svg/sky.webp);
+  font-family: "Overpass", sans-serif;
+  background-image: url(./components/svg/white.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.792);
-  background-blend-mode: darken;
   height: 100vh;
 }
 body::-webkit-scrollbar {
   display: none;
 }
 iframe {
-  border-radius: 20px;
+  border-radius: 40px;
+}
+.customblur {
+  border-radius: 40px;
+  border-bottom: 2px solid orangered;
+  border-top: 2px solid orangered;
+  backdrop-filter: blur(5px);
+  height: fit-content;
+  padding: 3em;
 }
 css-doodle {
   width: 80vw;
+}
+@media screen and (max-width: 800px) {
+  .customblur {
+    text-align: center;
+    padding: 0em;
+  }
 }

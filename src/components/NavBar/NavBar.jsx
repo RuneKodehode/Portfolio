@@ -14,13 +14,13 @@ function NavBar() {
       >
         <Link
           to="/"
-          className="w-16 h-12 sm:w-32 text-black font-bold  bg-white rounded-lg flex hover:border-orange-600 hover:border-2 active:scale-90 m-1"
+          className="w-16 h-12 sm:w-32   bg-white rounded-lg flex hover:border-orange-600 hover:border-2 active:scale-90 m-1 border-2 border-black  "
         >
           <BiHomeAlt2 className="grid self-center w-16 h-12 sm:w-32 sm:h-12" />
         </Link>
         <button
           to="/menu"
-          className="w-16 h-12 rounded-lg font-bold text-black text-center  text-xs bg-white sm:w-32  sm:h-12 sm:text-lg hover:border-orange-600 hover:border-2 active:scale-90 m-1"
+          className="w-16 h-12 rounded-lg  text-center  text-xs bg-white sm:w-32  sm:h-12 sm:text-xl hover:border-orange-600 hover:border-2 active:scale-90 m-1  border-2 border-black"
           aria-label="open or close the navigation menu"
           onClick={() => {
             setShowNav(!showNav);
@@ -33,7 +33,7 @@ function NavBar() {
           {showNav && (
             <Link
               to="/ProjectOne"
-              className="grid place-content-center w-16 h-12 rounded-lg text-black text-center font-bold  text-xs bg-white  sm:w-32  sm:h-12 sm:text-lg hover:border-orange-600 hover:border-2 active:scale-90 m-1"
+              className="grid place-content-center w-16 h-12 rounded-lg  text-center  text-xs bg-white  sm:w-32  sm:h-12 sm:text-xl hover:border-orange-600 hover:border-2 active:scale-90 m-1  border-2 border-black"
               onClick={() => {
                 setHideClose((prevHideClose) => (prevHideClose !== 1 ? 1 : 0));
               }}
@@ -45,7 +45,7 @@ function NavBar() {
             <div aria-label="Show Parallax website" className="flex flex-col">
               <Link
                 to="/AboutProjOne"
-                className="grid place-content-center w-16 h-10 rounded-lg text-black  text-xs active:scale-90 bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg   text-xs active:scale-90 bg-neutral-200 border-2gi  hover:border-orange-600 hover:border-2   sm:w-32  sm:h-12 sm:text-xl mx-1  border-2 border-black"
               >
                 info
               </Link>
@@ -53,7 +53,7 @@ function NavBar() {
                 href="https://github.com/RuneKodehode/Parallax"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="grid place-content-center w-16 h-10 rounded-lg active:scale-90 text-black text-center  text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg active:scale-90  text-center  text-xs bg-neutral-200 border-2gi  hover:border-orange-600 hover:border-2   sm:w-32  sm:h-12 sm:text-xl mx-1  border-2 border-black"
               >
                 Github
               </a>
@@ -64,7 +64,7 @@ function NavBar() {
           {showNav && (
             <Link
               to="/ProjectTwo"
-              className="grid place-content-center w-16 h-12 rounded-lg text-black text-center font-bold  text-xs bg-white  sm:w-32  sm:h-12 sm:text-lg hover:border-orange-600 hover:border-2 active:scale-90 m-1"
+              className="grid place-content-center w-16 h-12 rounded-lg  text-center  text-xs bg-white  sm:w-32  sm:h-12 sm:text-xl hover:border-orange-600 hover:border-2 active:scale-90 m-1  border-2 border-black"
               id="pokedexBtn"
               onClick={() => {
                 setHideClose((prevHideClose) => (prevHideClose !== 2 ? 2 : 0));
@@ -77,7 +77,7 @@ function NavBar() {
             <div className="flex flex-col">
               <Link
                 to="/AboutProjTwo"
-                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg  text-center active:scale-90 text-xs bg-neutral-200 border-2gi  hover:border-orange-600 hover:border-2   sm:w-32  sm:h-12 sm:text-xl mx-1  border-2 border-black"
               >
                 info
               </Link>
@@ -85,7 +85,7 @@ function NavBar() {
                 href="https://github.com/RuneKodehode/Pokedex"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg  text-center active:scale-90 text-xs bg-neutral-200 border-2gi  hover:border-orange-600 hover:border-2   sm:w-32  sm:h-12 sm:text-xl mx-1  border-2 border-black"
               >
                 Github
               </a>
@@ -96,7 +96,7 @@ function NavBar() {
           {showNav && (
             <Link
               to="/Breakout"
-              className="grid place-content-center w-16 h-12 rounded-lg text-black text-center font-bold  text-xs bg-white  sm:w-32  sm:h-12 sm:text-lg hover:border-orange-600 hover:border-2 active:scale-90 m-1"
+              className="grid place-content-center w-16 h-12 rounded-lg  text-center  text-xs bg-white  sm:w-32  sm:h-12 sm:text-xl hover:border-orange-600 hover:border-2 active:scale-90 m-1  border-2 border-black"
               onClick={() => {
                 setHideClose((prevHideClose) => (prevHideClose !== 3 ? 3 : 0));
               }}
@@ -108,7 +108,7 @@ function NavBar() {
             <div className="flex flex-col">
               <Link
                 to="/AboutBreakout"
-                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg  text-center active:scale-90 text-xs bg-neutral-200 border-2gi  hover:border-orange-600 hover:border-2  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-xl mx-1  border-2 border-black"
               >
                 info
               </Link>
@@ -116,7 +116,7 @@ function NavBar() {
                 href="https://github.com/RuneKodehode/breakout"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg  text-center active:scale-90 text-xs bg-neutral-200 border-2gi  hover:border-orange-600 hover:border-2  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-xl mx-1  border-2 border-black"
               >
                 Github
               </a>
@@ -127,7 +127,7 @@ function NavBar() {
           {showNav && (
             <Link
               to="/Collatz"
-              className="grid place-content-center w-16 h-12 rounded-lg text-black text-center font-bold  text-xs bg-white  sm:w-32  sm:h-12 sm:text-lg hover:border-orange-600 hover:border-2 active:scale-90 m-1"
+              className="grid place-content-center w-16 h-12 rounded-lg  text-center  text-xs bg-white  sm:w-32  sm:h-12 sm:text-xl hover:border-orange-600 hover:border-2 active:scale-90 m-1  border-2 border-black"
               onClick={() => {
                 setHideClose((prevHideClose) => (prevHideClose !== 4 ? 4 : 0));
               }}
@@ -139,7 +139,7 @@ function NavBar() {
             <div className="flex flex-col">
               <Link
                 to="/AboutCollatz"
-                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg  text-center active:scale-90 text-xs bg-neutral-200 border-2gi  hover:border-orange-600 hover:border-2  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-xl mx-1  border-2 border-black"
               >
                 info
               </Link>
@@ -147,7 +147,7 @@ function NavBar() {
                 href="https://github.com/RuneKodehode/Collatz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg  text-center active:scale-90 text-xs bg-neutral-200 border-2gi  hover:border-orange-600 hover:border-2  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-xl mx-1  border-2 border-black"
               >
                 Github
               </a>
@@ -158,7 +158,7 @@ function NavBar() {
           {showNav && (
             <Link
               to="/Piano"
-              className="grid place-content-center w-16 h-12 rounded-lg text-black text-center font-bold  text-xs bg-white  sm:w-32  sm:h-12 sm:text-lg hover:border-orange-600 hover:border-2 active:scale-90 m-1"
+              className="grid place-content-center w-16 h-12 rounded-lg  text-center  text-xs bg-white  sm:w-32  sm:h-12 sm:text-xl hover:border-orange-600 hover:border-2 active:scale-90 m-1  border-2 border-black"
               onClick={() => {
                 setHideClose((prevHideClose) => (prevHideClose !== 5 ? 5 : 0));
               }}
@@ -170,7 +170,7 @@ function NavBar() {
             <div className="flex flex-col">
               <Link
                 to="/AboutPiano"
-                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg  text-center active:scale-90 text-xs bg-neutral-200 border-2gi  hover:border-orange-600 hover:border-2  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-xl mx-1  border-2 border-black"
               >
                 info
               </Link>
@@ -178,7 +178,7 @@ function NavBar() {
                 href="https://github.com/RuneKodehode/Drums"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="grid place-content-center w-16 h-10 rounded-lg text-black text-center active:scale-90 text-xs bg-slate-400 border-2gi border-orange-400 hover:border-orange-600 hover:border-2 font-bold  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-lg mx-1"
+                className="grid place-content-center w-16 h-10 rounded-lg  text-center active:scale-90 text-xs bg-neutral-200 border-2gi  hover:border-orange-600 hover:border-2  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-xl mx-1  border-2 border-black"
               >
                 Github
               </a>
