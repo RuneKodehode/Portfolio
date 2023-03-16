@@ -7,7 +7,7 @@ export const Rune = () => {
     >
       <h1 className="self-center justify-self-center text-center">Portfolio</h1>
       <div id="doodle" className="min-w-full">
-        <Doodle
+        {/* <Doodle
           rule={`@grid: 25;
           @size:  2px 2px;
           background-color: orangered;
@@ -27,7 +27,7 @@ export const Rune = () => {
                15%, 70%, 90% { scale: 1; opacity: 1}
               20%, 10%, 80% { scale: 0; opacity: 0;}
               `}
-        ></Doodle>{" "}
+        ></Doodle>{" "} */}
       </div>
       <h1 className="">Rune</h1>
     </div>
