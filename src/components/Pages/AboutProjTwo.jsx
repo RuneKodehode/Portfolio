@@ -4,7 +4,6 @@ export const AboutProjTwo = () => {
       <p>
         <span style={{ color: "orangered" }}>Pokedex</span>
       </p>
-
       <p className="px-3">
         This is a small pokedex for generation 1. <br />
         It uses the pokemon API to fetch text and images of the pokemon. <br />{" "}

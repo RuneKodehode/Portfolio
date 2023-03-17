@@ -1,7 +1,7 @@
 export const AboutBreakout = () => {
   return (
     <div className=" customblur sm:text-3xl space-y-5 text-center sm:w-11/12  min-h-full self-center justify-self-center w-screen">
-      <p className="pt-4">
+      <p className="py-4">
         <span style={{ color: "orangered" }}>Breakout</span>
       </p>
       <p className="px-3">

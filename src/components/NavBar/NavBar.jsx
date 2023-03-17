@@ -20,7 +20,7 @@ function NavBar() {
         </Link>
         <button
           to="/menu"
-          className="w-16 h-12 rounded-lg  text-center  text-xs bg-white sm:w-32  sm:h-12 sm:text-xl hover:border-orange-600 hover:border-2 active:scale-90 m-1  border-2 border-black"
+          className="w-16 h-12 px-2 rounded-lg  text-center  text-xs bg-white sm:w-32  sm:h-12 sm:text-xl hover:border-orange-600 hover:border-2 m-1  border-2 border-black"
           aria-label="open or close the navigation menu"
           onClick={() => {
             setShowNav(!showNav);

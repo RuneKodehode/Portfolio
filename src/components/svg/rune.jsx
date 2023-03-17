@@ -13,11 +13,8 @@ export const Rune = () => {
           background-color: orangered;
           box-shadow: 0px 0px 8px red;
           @place: @plot(
-        
-          
             rotate: 90;
           );
-            
             animation: m 8s alternate-reverse infinite;
             transform: translateY(calc(@sin(@i / 4.1) * π * 5px));
             animation-delay: calc(
