@@ -25,7 +25,7 @@ iframe {
   padding: 3em;
 }
 css-doodle {
-  width: 80vw;
+  margin-top: 10px;
 }
 @media screen and (max-width: 800px) {
   .customblur {

@@ -1,10 +1,10 @@
 export const AboutBreakout = () => {
   return (
-    <div className="customblur sm:text-2xl space-y-5 w-11/12 sm:w-11/12 self-start sm:mt-32 mt-16 ml-auto mr-auto justify-self-center text-left">
-      <h2 className="text-center ">
+    <div className=" customblur sm:text-3xl space-y-5 text-center sm:w-11/12  min-h-full self-center justify-self-center w-screen">
+      <p className="pt-4">
         <span style={{ color: "orangered" }}>Breakout</span>
-      </h2>
-      <p>
+      </p>
+      <p className="px-3">
         Created to learn how collision in a game works, and to make it playable
         with keyboard, mouse and touchscreen.
         <br />

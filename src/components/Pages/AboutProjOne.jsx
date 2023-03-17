@@ -1,16 +1,18 @@
 export const AboutProjOne = () => {
   return (
-    <div className=" customblur sm:text-2xl space-y-5 w-11/12 sm:w-11/12 self-start sm:mt-32 mt-16 ml-auto mr-auto justify-self-center text-left">
-      <h2 className="text-center">
+    <div className=" customblur sm:text-3xl space-y-5 text-center sm:w-11/12  min-h-full self-center justify-self-center w-screen">
+      <p className="pt-4">
         {" "}
         <span style={{ color: "orangered" }}>Parallax</span>
-      </h2>
-      <br />
-      <p>
+      </p>
+      <p className="px-3">
         This is a parallax site about the Amazon rainforest I made with CSS,
-        HTML, and Javascript. <br /> <br /> The goal was primarily to figure out
-        how to make buttons use Javascript in conjuction with CSS to resize
-        frames.
+        HTML, and Javascript.{" "}
+      </p>
+      <p className="px-3">
+        {" "}
+        The goal was primarily to figure out how to make buttons use Javascript
+        in conjuction with CSS to resize frames.
       </p>
     </div>
   );

@@ -1,16 +1,16 @@
 export const Contact = () => {
   return (
-    <div className="customblur sm:text-3xl sm:w-96 self-center justify-self-center w-full sm:mb-32">
-      <h3>
+    <div className=" customblur sm:text-3xl space-y-5 text-center sm:w-11/12  min-h-full self-center justify-self-center w-screen">
+      <p className="px-3 pt-4">
         {" "}
         Tlf: <span style={{ color: "orangered" }}>+47 91992120</span>
-      </h3>
-      <h3>
+      </p>
+
+      <p className="px-3">
         E-mail: <span style={{ color: "orangered" }}>RuneLaupsa@gmail.com</span>
-      </h3>
-      <br />
-      <br />
-      <p>CV can be provided upon request. </p>
+      </p>
+
+      <p className="px-3">CV can be provided upon request. </p>
     </div>
   );
 };

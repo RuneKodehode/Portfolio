@@ -6,30 +6,28 @@ export const Rune = () => {
       id="portfolio"
     >
       <h1 className="self-center justify-self-center text-center">Portfolio</h1>
-      <div id="doodle" className="min-w-full">
-        {/* <Doodle
-          rule={`@grid: 25;
+      <h1 className="">Rune</h1>
+      <Doodle
+        rule={`@grid: 10;
           @size:  2px 2px;
           background-color: orangered;
-          box-shadow: 0px 0px 4px red;
+          box-shadow: 0px 0px 8px red;
           @place: @plot(
-            r: sin(-t/2);
-            move: 0 -.1;
+        
+          
             rotate: 90;
           );
             
-            animation: m 3s alternate-reverse infinite;
-            transform: translateY(calc(@sin(@i / 1) * π * 10px));
+            animation: m 8s alternate-reverse infinite;
+            transform: translateY(calc(@sin(@i / 4.1) * π * 5px));
             animation-delay: calc(
              -1s/@I * @i * @sin(@i)
              );
              @keyframes m {
-               15%, 70%, 90% { scale: 1; opacity: 1}
+               28%, 40%, 100% { scale: 1; opacity: 1}
               20%, 10%, 80% { scale: 0; opacity: 0;}
               `}
-        ></Doodle>{" "} */}
-      </div>
-      <h1 className="">Rune</h1>
+      ></Doodle>{" "}
     </div>
   );
 };
