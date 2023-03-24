@@ -191,13 +191,13 @@ function NavBar() {
               to="/Rover"
               className="grid place-content-center w-16 h-12 rounded-lg  text-center  text-xs bg-white  sm:w-32  sm:h-12 sm:text-xl hover:border-orange-600 hover:border-2 active:scale-90 m-1  border-2 border-black"
               onClick={() => {
-                setHideClose((prevHideClose) => (prevHideClose !== 5 ? 5 : 0));
+                setHideClose((prevHideClose) => (prevHideClose !== 6 ? 6 : 0));
               }}
             >
               Curiosity
             </Link>
           )}
-          {showNav && hideClose === 5 && (
+          {showNav && hideClose === 6 && (
             <div className="flex flex-col">
               <Link
                 to="/AboutRover"
