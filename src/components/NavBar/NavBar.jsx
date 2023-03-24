@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <div className="grid row-start-3 col-start-1 sm:row-start-1 sm:col-start-1">
       <div
-        className="flex sm:flex-col  whitespace-nowrap overflow-auto w-screen sm:overflow-visible"
+        className="flex sm:flex-col  whitespace-nowrap overflow-auto w-screen  cstmblr sm:overflow-visible "
         id="navbar"
       >
         <Link
@@ -176,6 +176,37 @@ function NavBar() {
               </Link>
               <a
                 href="https://github.com/RuneKodehode/Drums"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="grid place-content-center w-16 h-10 rounded-lg  text-center active:scale-90 text-xs bg-neutral-200 border-2gi  hover:border-orange-600 hover:border-2  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-xl mx-1  border-2 border-black"
+              >
+                Github
+              </a>
+            </div>
+          )}
+        </div>
+        <div className="flex flex-col">
+          {showNav && (
+            <Link
+              to="/Rover"
+              className="grid place-content-center w-16 h-12 rounded-lg  text-center  text-xs bg-white  sm:w-32  sm:h-12 sm:text-xl hover:border-orange-600 hover:border-2 active:scale-90 m-1  border-2 border-black"
+              onClick={() => {
+                setHideClose((prevHideClose) => (prevHideClose !== 5 ? 5 : 0));
+              }}
+            >
+              Curiosity
+            </Link>
+          )}
+          {showNav && hideClose === 5 && (
+            <div className="flex flex-col">
+              <Link
+                to="/AboutRover"
+                className="grid place-content-center w-16 h-10 rounded-lg  text-center active:scale-90 text-xs bg-neutral-200 border-2gi  hover:border-orange-600 hover:border-2  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-xl mx-1  border-2 border-black"
+              >
+                info
+              </Link>
+              <a
+                href="https://github.com/RuneKodehode/Mars"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="grid place-content-center w-16 h-10 rounded-lg  text-center active:scale-90 text-xs bg-neutral-200 border-2gi  hover:border-orange-600 hover:border-2  hover:border-orange-600 hover:border-2 sm:w-32  sm:h-12 sm:text-xl mx-1  border-2 border-black"

@@ -10,6 +10,8 @@ import { Breakout } from "./components/Pages/Breakout.jsx";
 import { Collatz } from "./components/Pages/Collatz.jsx";
 import { AboutCollatz } from "./components/Pages/AboutCollatz.jsx";
 import { Piano } from "./components/Pages/Piano.jsx";
+import { Rover } from "./components/Pages/Rover.jsx";
+import { AboutRover } from "./components/Pages/AboutRover.jsx";
 import { AboutPiano } from "./components/Pages/AboutPiano.jsx";
 import { Rune } from "./components/svg/rune.jsx";
 import { Contact } from "./components/Pages/Contact.jsx";
@@ -37,6 +39,8 @@ function App() {
               <Route path="/Collatz" element={<Collatz />} />
               <Route path="/Piano" element={<Piano />} />
               <Route path="/AboutPiano" element={<AboutPiano />} />
+              <Route path="/Rover" element={<Rover />} />
+              <Route path="/AboutRover" element={<AboutRover />} />
               <Route
                 path="*"
                 element={
