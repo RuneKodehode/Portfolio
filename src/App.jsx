@@ -1,5 +1,4 @@
 import { NavBar } from "./components/NavBar/NavBar.jsx";
-import { NavBarTwo } from "./components/NavBar/NavbarTwo.jsx";
 import { Home } from "./components/Pages/Home";
 import { ProjectOne } from "./components/Pages/ProjectOne.jsx";
 import { ProjectTwo } from "./components/Pages/ProjectTwo.jsx";
@@ -13,7 +12,6 @@ import { Piano } from "./components/Pages/Piano.jsx";
 import { Rover } from "./components/Pages/Rover.jsx";
 import { AboutRover } from "./components/Pages/AboutRover.jsx";
 import { AboutPiano } from "./components/Pages/AboutPiano.jsx";
-import { Rune } from "./components/svg/rune.jsx";
 import { Contact } from "./components/Pages/Contact.jsx";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -21,11 +19,9 @@ function App() {
   return (
     <div className="">
       <Router>
-        <div className="grid sm:grid-rows-[15%_minmax(150px,_auto)_20px] grid-rows-[15%_minmax(150px,_auto)_150px] grid-cols-[7%_minmax(5px,_2fr)_7%] sm:grid-cols-[16%_minmax(5px,_2fr)_16%] h-[100dvh]">
-          <Rune />
+        <div className="grid sm:grid-rows-[14%_minmax(150px,_auto)_0px] grid-rows-[15%_minmax(150px,_auto)_150px] grid-cols-[7%_minmax(5px,_2fr)_7%] sm:grid-cols-[7%_minmax(5px,_2fr)_16%] h-[100dvh]">
           <NavBar />
-          <NavBarTwo />
-          <div className="grid row-start-2 col-start-1 col-span-3 sm:col-span-1 sm:col-start-2 pb-2.5">
+          <div className="grid row-start-1 row-span-2 sm:row-span-1 col-start-1 sm:col-span-3 sm:col-start-1 w-screen h-screen pt-40">
             <Routes className="flex">
               <Route path="/" element={<Home />} />
               <Route path="/ProjectOne" element={<ProjectOne />} />

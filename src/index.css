@@ -4,18 +4,17 @@
 
 body {
   font-family: "Overpass", sans-serif;
-  background-image: url(./components/svg/white.webp);
+  /* background-image: url(./components/svg/white.webp); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  background-color: rgb(0, 0, 0);
 }
 body::-webkit-scrollbar {
   display: none;
 }
-iframe {
-  border-radius: 40px;
-}
+
 .customblur {
   border-radius: 40px;
   border-bottom: 2px solid orangered;
