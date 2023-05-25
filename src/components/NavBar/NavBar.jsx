@@ -20,13 +20,13 @@ function NavBar() {
           <div className="flex">
             <Link
               to="/ProjectOne"
-              className="navbuttons rounded-l-lg py-2 w-24 focus:invert border  border-opacity-0 hover:border hover:border-orange-400 text-center "
+              className="navbuttons rounded-l-lg py-2 w-24 focus:invert text-center "
             >
               Parallax
             </Link>
             <Link
               to="/ProjectTwo"
-              className="navbuttons py-2 w-24 focus:invert border  border-opacity-0 hover:border hover:border-orange-400 text-center"
+              className="navbuttons py-2 w-24 focus:invert text-center"
               id="pokedexBtn"
             >
               Pokedex
@@ -34,26 +34,26 @@ function NavBar() {
 
             <Link
               to="/Breakout"
-              className="navbuttons py-2 w-24 focus:invert border  border-opacity-0 hover:border hover:border-orange-400 text-center"
+              className="navbuttons py-2 w-24 focus:invert text-center"
             >
               Breakout
             </Link>
             <Link
               to="/Collatz"
-              className="navbuttons py-2 w-24 focus:invert border  border-opacity-0 hover:border hover:border-orange-400 text-center"
+              className="navbuttons py-2 w-24 focus:invert text-center"
             >
               Collatz
             </Link>
 
             <Link
               to="/Piano"
-              className="navbuttons py-2 w-24 focus:invert border  border-opacity-0 hover:border hover:border-orange-400 text-center"
+              className="navbuttons py-2 w-24 focus:invert text-center"
             >
               Piano
             </Link>
             <Link
               to="/Rover"
-              className="navbuttons rounded-r-lg py-2 w-24 focus:invert border  border-opacity-0 hover:border hover:border-orange-400 text-center"
+              className="navbuttons rounded-r-lg py-2 w-24 focus:invert text-center"
             >
               Mission
             </Link>
