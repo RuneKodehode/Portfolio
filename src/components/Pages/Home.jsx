@@ -1,6 +1,6 @@
 export const Home = () => {
   return (
-    <div className="bg-white sm:text-xl space-y-3 text-center sm:w-11/12  min-h-full self-center justify-self-center  w-screen text-white">
+    <div className=" sm:text-xl space-y-3 text-center sm:w-11/12  self-center justify-self-center text-white ">
       <p className="px-3 pt-4">
         Hi, my name is <span style={{ color: "orangered" }}> Rune</span>.
       </p>

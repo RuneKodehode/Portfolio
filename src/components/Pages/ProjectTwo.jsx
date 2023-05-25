@@ -3,7 +3,7 @@ export const ProjectTwo = () => {
     <iframe
       src="https://runekodehode.github.io/Pokedex/"
       frameBorder="0"
-      className="w-full h-full"
+      className="w-full h-full mt-20"
     ></iframe>
   );
 };

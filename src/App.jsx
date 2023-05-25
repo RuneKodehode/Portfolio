@@ -21,7 +21,7 @@ function App() {
       <Router>
         <div className="grid sm:grid-rows-[14%_minmax(150px,_auto)_0px] grid-rows-[15%_minmax(150px,_auto)_150px] grid-cols-[7%_minmax(5px,_2fr)_7%] sm:grid-cols-[7%_minmax(5px,_2fr)_16%] h-[100dvh]">
           <NavBar />
-          <div className="grid row-start-1 row-span-2 sm:row-span-1 col-start-1 sm:col-span-3 sm:col-start-1 w-screen h-screen pt-40">
+          <div className="grid row-start-1 row-span-2 sm:row-span-1 col-start-1 sm:col-span-3 sm:col-start-1 w-screen h-screen">
             <Routes className="flex">
               <Route path="/" element={<Home />} />
               <Route path="/ProjectOne" element={<ProjectOne />} />
