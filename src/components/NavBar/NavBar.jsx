@@ -10,7 +10,7 @@ function NavBar() {
   return (
     <div className="fixed sm:flex flex-col w-screen bg-yellow-200 bg-opacity-25 h-0 ">
       <div className="menu mx-auto" tab-index="0">
-        <div className="flex justify-center gap-0.5 mb-0">
+        <div className="flex justify-center gap-0.5">
           <Link to="/" className=" py-2 w-24 ">
             <a className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border hover:border-orange-400 text-center ">
               Home
