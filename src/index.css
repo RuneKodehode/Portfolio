@@ -4,7 +4,9 @@
 
 body {
   font-family: "Overpass", sans-serif;
-
+  background-image: url("./components/svg/white.webp");
+  background-size: cover;
+  background-position: fixed;
   height: 100vh;
   background-color: rgb(204, 171, 171);
 }
@@ -30,7 +32,7 @@ body::-webkit-scrollbar {
 .sub-menu:hover {
   visibility: visible;
 }
-.menu:focus .sub-menu,
+.menu:hover .sub-menu,
 .menu:focus-within .sub-menu,
 .menu:hover .sub-menu {
   visibility: visible;
