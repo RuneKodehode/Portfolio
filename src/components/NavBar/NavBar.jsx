@@ -10,23 +10,38 @@ function NavBar() {
   return (
     <div className="fixed sm:flex flex-col w-screen bg-yellow-200 bg-opacity-25 h-0 ">
       <div className="menu mx-auto" tab-index="0">
-        <Link to="/" className=" py-2 w-24 ">
-          <a className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border hover:border-orange-400 text-center ">
-            Menu
-          </a>
-          {/* Adjust the size and spacing as needed */}
-        </Link>
+        <div className="flex justify-center gap-0.5 mb-0">
+          <Link to="/" className=" py-2 w-24 ">
+            <a className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border hover:border-orange-400 text-center ">
+              Home
+            </a>
+          </Link>
+          <Link to="/Contact" className=" py-2 w-24 ">
+            <a className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border hover:border-orange-400 text-center ">
+              Contact
+            </a>
+          </Link>
+          <div className="py-2 w-24">
+            <a
+              href="https://github.com/RuneKodehode?tab=repositories"
+              target="_blank"
+              className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border hover:border-orange-400 text-center "
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
         <ul className="sub-menu ease-in-out  duration-700">
-          <div className="flex">
+          <div className="flex gap-0.5">
             <Link
               to="/ProjectOne"
-              className="navbuttons rounded-l-lg py-2 w-24 focus:invert text-center "
+              className="navbuttons rounded py-2 w-24 focus:invert text-center "
             >
               Parallax
             </Link>
             <Link
               to="/ProjectTwo"
-              className="navbuttons py-2 w-24 focus:invert text-center"
+              className="navbuttons rounded py-2 w-24 focus:invert text-center"
               id="pokedexBtn"
             >
               Pokedex
@@ -34,26 +49,26 @@ function NavBar() {
 
             <Link
               to="/Breakout"
-              className="navbuttons py-2 w-24 focus:invert text-center"
+              className="navbuttons rounded py-2 w-24 focus:invert text-center"
             >
               Breakout
             </Link>
             <Link
               to="/Collatz"
-              className="navbuttons py-2 w-24 focus:invert text-center"
+              className="navbuttons rounded py-2 w-24 focus:invert text-center"
             >
               Collatz
             </Link>
 
             <Link
               to="/Piano"
-              className="navbuttons py-2 w-24 focus:invert text-center"
+              className="navbuttons rounded py-2 w-24 focus:invert text-center"
             >
               Piano
             </Link>
             <Link
               to="/Rover"
-              className="navbuttons rounded-r-lg py-2 w-24 focus:invert text-center"
+              className="navbuttons rounded py-2 w-24 focus:invert text-center"
             >
               Mission
             </Link>
