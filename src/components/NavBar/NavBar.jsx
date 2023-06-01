@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { BiHomeAlt2, BiGame } from "react-icons/bi";
-import { AiFillGithub } from "react-icons/ai";
 
 function NavBar() {
   const [showNav, setShowNav] = useState(false);
@@ -12,23 +10,23 @@ function NavBar() {
       <div className="menu mx-auto" tab-index="0">
         <div className="flex justify-center gap-0.5">
           <Link to="/" className=" py-2 w-24 ">
-            <a className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border hover:border-orange-400 text-center ">
+            <button className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border text-center ">
               Home
-            </a>
+            </button>
           </Link>
           <Link to="/Contact" className=" py-2 w-24 ">
-            <a className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border hover:border-orange-400 text-center ">
+            <button className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border text-center ">
               Contact
-            </a>
+            </button>
           </Link>
           <div className="py-2 w-24">
-            <a
+            <button
               href="https://github.com/RuneKodehode?tab=repositories"
               target="_blank"
-              className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border hover:border-orange-400 text-center "
+              className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border text-center "
             >
               GitHub
-            </a>
+            </button>
           </div>
         </div>
         <ul className="sub-menu ease-in-out  duration-700">
@@ -70,7 +68,7 @@ function NavBar() {
               to="/Rover"
               className="navbuttons rounded py-2 w-24 focus:invert text-center"
             >
-              Mission
+              Curiosity
             </Link>
           </div>
         </ul>

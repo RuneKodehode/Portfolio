@@ -15,9 +15,11 @@ body::-webkit-scrollbar {
 }
 .navbuttons {
   background-color: rgba(251, 251, 251, 0.958);
-  border: 2px black;
+  border: 1px solid rgb(0, 0, 0);
 }
-
+.navbuttons:hover {
+  transform: scale(1.05);
+}
 /* dropdown menu */
 
 .sub-menu {
@@ -40,7 +42,7 @@ body::-webkit-scrollbar {
   z-index: 4;
   transform: translateY(-14%);
 
-  transition: 0.3s ease-in;
+  transition: 0.1s ease-in;
 }
 
 @media screen and (max-width: 800px) {
