@@ -24,7 +24,6 @@ body::-webkit-scrollbar {
 
 .sub-menu {
   transform: translateY(-150%);
-
   top: 100%;
   left: 50%;
   z-index: 4;

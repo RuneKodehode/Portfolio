@@ -2,16 +2,10 @@ import { NavBar } from "./components/NavBar/NavBar.jsx";
 import { Home } from "./components/Pages/Home";
 import { ProjectOne } from "./components/Pages/ProjectOne.jsx";
 import { ProjectTwo } from "./components/Pages/ProjectTwo.jsx";
-import { AboutProjOne } from "./components/Pages/AboutProjOne.jsx";
-import { AboutProjTwo } from "./components/Pages/AboutProjTwo.jsx";
-import { AboutBreakout } from "./components/Pages/AboutBreakout.jsx";
 import { Breakout } from "./components/Pages/Breakout.jsx";
 import { Collatz } from "./components/Pages/Collatz.jsx";
-import { AboutCollatz } from "./components/Pages/AboutCollatz.jsx";
 import { Piano } from "./components/Pages/Piano.jsx";
 import { Rover } from "./components/Pages/Rover.jsx";
-import { AboutRover } from "./components/Pages/AboutRover.jsx";
-import { AboutPiano } from "./components/Pages/AboutPiano.jsx";
 import { Contact } from "./components/Pages/Contact.jsx";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -26,17 +20,11 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/ProjectOne" element={<ProjectOne />} />
               <Route path="/ProjectTwo" element={<ProjectTwo />} />
-              <Route path="/AboutProjOne" element={<AboutProjOne />} />
-              <Route path="/AboutProjTwo" element={<AboutProjTwo />} />
-              <Route path="/AboutBreakout" element={<AboutBreakout />} />
-              <Route path="/AboutCollatz" element={<AboutCollatz />} />
               <Route path="/Contact" element={<Contact />} />
               <Route path="/Breakout" element={<Breakout />} />
               <Route path="/Collatz" element={<Collatz />} />
               <Route path="/Piano" element={<Piano />} />
-              <Route path="/AboutPiano" element={<AboutPiano />} />
               <Route path="/Rover" element={<Rover />} />
-              <Route path="/AboutRover" element={<AboutRover />} />
               <Route
                 path="*"
                 element={

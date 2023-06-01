@@ -20,13 +20,13 @@ function NavBar() {
             </button>
           </Link>
           <div className="py-2 w-24">
-            <button
+            <a
               href="https://github.com/RuneKodehode?tab=repositories"
               target="_blank"
               className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border text-center "
             >
               GitHub
-            </button>
+            </a>
           </div>
         </div>
         <ul className="sub-menu ease-in-out  duration-700">
