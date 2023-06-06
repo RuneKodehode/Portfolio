@@ -1,21 +1,17 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function NavBar() {
-  const [showNav, setShowNav] = useState(false);
-  const [hideClose, setHideClose] = useState(0);
-
   return (
     <div className="fixed sm:flex flex-col w-screen bg-yellow-200 bg-opacity-25 h-0 ">
       <div className="menu mx-auto" tab-index="0">
         <div className="flex justify-center gap-0.5">
           <Link to="/" className=" py-2 w-24 ">
-            <button className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border text-center ">
+            <button className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert text-center ">
               Home
             </button>
           </Link>
           <Link to="/Contact" className=" py-2 w-24 ">
-            <button className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border text-center ">
+            <button className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert text-center ">
               Contact
             </button>
           </Link>
@@ -23,17 +19,17 @@ function NavBar() {
             <a
               href="https://github.com/RuneKodehode?tab=repositories"
               target="_blank"
-              className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert border border-opacity-0 hover:border text-center "
+              className="navbuttons rounded grid mx-auto py-2 w-24 focus:invert text-center "
             >
               GitHub
             </a>
           </div>
         </div>
-        <ul className="sub-menu ease-in-out  duration-700">
+        <ul className="sub-menu ease-in-out duration-700">
           <div className="flex gap-0.5">
             <Link
               to="/ProjectOne"
-              className="navbuttons rounded py-2 w-24 focus:invert text-center "
+              className="navbuttons rounded py-2 w-24 focus:invert text-center"
             >
               Parallax
             </Link>
@@ -73,7 +69,6 @@ function NavBar() {
           </div>
         </ul>
       </div>
-      {/* LEGACY NAVBAR */}
     </div>
   );
 }
